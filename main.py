@@ -12,7 +12,7 @@ user_input = st.chat_input("Type your message here...")
 
 # Function to get response from API
 def get_response(model_name, user_message):
-    url = "https://alglc0gfd4latj-11434.proxy.runpod.net/v1/chat/completions"
+    url = st.secrets['api_key'] #your ollama hosted link  
     headers = {
         "Content-Type": "application/json"
     }
