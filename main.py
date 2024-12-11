@@ -20,7 +20,7 @@ def get_response(model_name, user_message):
     data = {
         "model": model_name,
         "messages": [
-            {"role": "system", "content": "You are a professional quant trader."},
+            {"role": "system", "content": "You are a professional coder."},
             {"role": "user", "content": user_message}
         ]
     }
