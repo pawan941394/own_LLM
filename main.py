@@ -5,7 +5,7 @@ import requests
 st.header("Try LLMS ---")
 
 # Dropdown to select model
-model = st.selectbox(label='Select LLM', options=['nemotron','athene-v2:latest','llama3.3','qwen2.5-coder:32b'])
+model = st.selectbox(label='Select LLM', options=['nemotron','llama3.3:latest'])
 
 # Chat input
 user_input = st.chat_input("Type your message here...")
